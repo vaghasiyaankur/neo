@@ -1,4 +1,5 @@
 export default function Home() {
-    const homeHeading = "Home Page Heading";
-    return <h1 class="homeClass"> {homeHeading}</h1>;
+    return (
+        <h1 className="bg-gray-500 text-white">Hello React!</h1>
+    );
 }
